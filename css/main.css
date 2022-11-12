@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left:px;
+    background-color: #F0c20a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.nav-link {
+    font-size: 1.25em;
+    font-weight: 600;
+    color:#4a5e26 ;
+    
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #00000026;
+}
+
+.my-container {
+    margin-left: 0px;
+}
+
+footer{
+    margin-left:250px ;
+    margin-bottom: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-weight: 600;
+}
+
+h5{
+    text-align: left;
+}
+
+.footerp{
+    padding-top: 3px;
+    line-height: 10px;
+}
+
+button{
+    padding: 5px;
+}
+
+.card{
+margin-left: 250px;
+color: black;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn{
+background: linear-gradient(to bottom right, #4a5e26, #053a0c);
+border: 0;
+border-radius: 12px;
+color: #FFFFFF;
+cursor: pointer;    
+}
+
+.btn:hover{
+background-color: #8d6011;
+box-shadow:0 0 .25rem rgba(0, 0, 0, 0.5);
+}
+
+
+.card-header{
+    background-color: #d9d8c2;
+    font-weight: 700;
+    font-size: 25px;
+    color:#4a5e26
+   
+}
+
+#maincard{
+margin-top: 5%;
+}
+
+.card-text{
+    font-weight: 600;
+    height: 50px;
+    font-size:20px;
+}
+.card-footer{
+    background-color: #8d6011;
+}
+
+#aboutp{
+    margin-left: 250px;
+   font-size: 20px;
+   position:absolute;
+   top: 400px;
+}
+
+
